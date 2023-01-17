@@ -50,7 +50,6 @@ out/
 *.class
 
 # Log file
-*.log
 
 # BlueJ files
 *.ctxt
@@ -117,10 +116,8 @@ cmake-build-*/
 .idea/**/mongoSettings.xml
 
 # File-based project format
-*.iws
 
 # IntelliJ
-out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -147,8 +144,6 @@ fabric.properties
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
 out
 gen
 ### VisualStudio template
@@ -243,7 +238,6 @@ StyleCopReport.xml
 *.tmp
 *.tmp_proj
 *_wpftmp.csproj
-*.log
 *.vspscc
 *.vssscc
 .builds
@@ -516,7 +510,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 ### Gradle template
-.gradle
 **/build/
 !src/**/build/
 

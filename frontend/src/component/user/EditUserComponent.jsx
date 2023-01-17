@@ -12,7 +12,6 @@ class EditUserComponent extends Component {
         this.state = {
             id: "",
             username: "",
-            password: "",
             firstName: "",
             lastName: "",
             age: "",
