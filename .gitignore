@@ -17,6 +17,16 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -521,12 +531,4 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
-### react ###
-.DS_*
-*.log
-logs
-**/*.backup.*
-**/*.back.*
 
-node_modules
-bower_components
